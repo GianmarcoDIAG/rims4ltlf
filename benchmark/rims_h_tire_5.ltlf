@@ -1,0 +1,5 @@
+(G(!not_flattire -> X(not_flattire)))
+(G(not_flattire) -> (X(!(changetire_l_1_1 || changetire_l_2_1 || changetire_l_3_1 || changetire_l_4_1 || changetire_l_5_1 || changetire_l_6_1 || changetire_l_6_2 || changetire_l_5_2 || changetire_l_5_3 || changetire_l_4_3 || changetire_l_3_3 || changetire_l_2_3 || changetire_l_1_3 || changetire_l_1_4 || changetire_l_2_4 || changetire_l_7_1 || changetire_l_2_2 || changetire_l_3_2 || changetire_l_3_4 || changetire_l_2_6))))
+F(vehicle_at_l_1_1)
+F(vehicle_at_l_2_1)
+F(vehicle_at_l_3_1)
