@@ -132,34 +132,12 @@ cmake ..
 make -j2
 ```
 
-## Running Example
-
-### Scenario 1.
-
-To run rims4ltlf in Scenario 1 from Example 1 run the following:
-
-```
-./rims4ltlf -d ./../../example/tire_domain.pddl -p ./../../example/scenario_1.pddl -i ./../../example/scenario_1.ltlf
-```
-
-To replicate the results presented in Example 1, insert the following commands through the CLI: 1. `get_all_winning_actions`; 2. `get_all_certainly_progressing_actions`; 3. `is_realizable(!vehicle_at_l_2_2 U vehicle_at_l_1_1,1)`; 4. `is_realizable_and_strong_adopt(!vehicle_at_l_2_2 U vehicle_at_l_1_1,1)` 
-
-### Scenario 2.
-
-To run rims4ltlf in Scenario 2 from Example 1 run the following:
-
-```
-./rims4ltlf -d ./../../example/tire_domain.pddl -p ./../../example/scenario_2.pddl -i ./../../example/scenario_2.ltlf
-```
-
-To replicate the results presented in Example 1, insert the following commands through the CLI: 1. `is_realizable(F(vehicle_at_l_3_1),2)`; 2. `is_realizable(F(vehicle_at_l_3_1),1)`
-
 ## Experimental Analysis
 
 First, move into the benchmark folder: `cd benchmark`
 
 Enable permissions for scripts: `sudo chmod "u+x" run_h_rims.sh run_h_maxsyft.sh`
 
-Execute scripts: `./rum_h_rims.sh` `./run_h_maxysft.sh`
+Execute scripts: `./run_h_rims.sh` `./run_h_maxysft.sh`
 
 Plot the results `python3 results.py`
